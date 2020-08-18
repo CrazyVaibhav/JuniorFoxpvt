@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <section id="head">
+        <header class="main">
+            <h5>STYLES <br> <span>CONFERENCE</span></h5>
+            <h3>AUGUST,24-30th---USA</h3>
+            <nav class="nav-bar">
+                <ul>
+                <li><a href="u.html">HOME</a></li>
+                <li><a href="speaker.html">SPEAKERS</a></li>
+                <li><a href="schedule.html">SCHEDULE</a></li>
+                <li><a href="venue.html">VENUE</a></li>
+                <li><a href="">REGISTER</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>    
+    <section id="he">
+        <h2>Register</h2>
+        <p>Every year we aim to have an unbelievable time, and this year we'd love it for you to join us. <br>Conference passes only cost $99, one of the best values you'll find.</p>
+
+    </section>
+    <section id="main">
+        <div class="cl">
+        <h3>Purchase a Conference Pass</h3>
+        <p class="price">$99 PER PASS</p>
+        <p class="bj">Purchase your Styles Conference pass using the form to the right. Multiple passes <br> may be purchased within the same order, so feel free to bring a friend or two along. <br> Once your order is finished we’ll follow up and provide a receipt for your purchase. <br> See you soon!</p>
+        <h6>Why Attend ?</h6>
+        <ul class="why">
+            <li>Over twenty world-class speakers</li>
+            <li>One full day of workshops and two full days of presentations</li>
+            <li>Hosted at The Chicago Theatre, a historical landmark</li>
+            <li>August in Chicago is simply amazing</li>
+        </ul>
+    </div>
+    
+        <!--         <h5 class="h5">$99 PER PASS</h5>
+        <p>Purchase your Styles Conference pass using the form to the right. Multiple passes <br> may be purchased within the same order, so feel free to bring a friend or two along. <br> Once your order is finished we’ll follow up and provide a receipt for your purchase. <br> See you soon!</p>
+        <h6>Why Attend ?</h6>
+        <ul class="why">
+            <li>Over twenty world-class speakers</li>
+            <li>One full day of workshops and two full days of presentations</li>
+            <li>Hosted at The Chicago Theatre, a historical landmark</li>
+            <li>August in Chicago is simply amazing</li>
+        </ul>
+         -->
+         <section id="frm">
+             <div class="con">
+         <form action="https://formspree.io/mknqageb" method="POST" id="my-form">
+             <div class="form-grp">
+                 <label for="name">Name</label>
+                 <div class="in">
+                 <input type="text" placeholder="Full-name" required>
+                </div>
+                </div>
+             <div class="form-grp">
+                 <label for="email">Email</label>
+                 <div class="in">
+                 <input type="email" name="email" placeholder="Email-id" required>
+                 </div>
+             </div>
+             <div class="form-grp">
+                 <label for="passes">Number Of Passes</label>
+                <div class="un">
+                 <select name="passes" >
+                     <option value="1" selected>1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                 </select>
+                </div>
+             </div>
+             <div class="bt">
+             <button type="submit" class="btn">PURCHASE</button>
+            </div>
+            </form>
+        </div>
+        <div id="status" class="success"></div>
+        </section>
+    </section>
+    
+    <footer id="fot">
+        <small>© Styles Conference</small>
+        <nav class="mn">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SCHEDULE</a></li>
+                <li><a href="">SPEAKER</a></li>
+                <li><a href="">VENUE</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="/main.js"></script>
+</body>
+</html>

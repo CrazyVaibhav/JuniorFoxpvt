@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{ 
+         background: #293f50;
+       color: #888888;
+ } 
+ #Main{
+     
+    background: #293f50;
+    color: #888888;
+    height: 500px;
+    width:auto;
+    margin: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+ }
+.head{
+    
+    background: #293f50;
+    color: #888888;
+    
+}
+.head h2{
+    float: left;
+    font-size: 3rem;
+    color: darkorange;
+}
+.head h2 span{
+    color: crimson;
+}
+.head h4{
+    float: right;
+    font-size:20px ;
+    padding-right: 130px;
+}
+.head .nav-bar ul{
+    float: right;
+    padding-top: 30px;
+    display: block;
+   list-style-type: none;
+}
+.head .nav-bar li{
+    display: inline;
+    padding-top: 50px;
+    padding-left: 40px;
+    color: white;
+    text-decoration: none;
+}
+.head .nav-bar a{
+    color: white;
+    text-decoration: none;
+ padding-top: 100px`;
+} 
+.content {
+    
+    align-content: center;
+    padding-top: 200px;
+    text-align: center;
+}
+.content h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+.content p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: #1f92f0;
+}
+.content a{
+    padding-top: 40px;
+}
+.content a{
+    
+    padding-left: 500px;
+    align-content: center;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.content .reg{
+    padding-top: 40px;
+}
+#data{
+    background: #fff;
+}
+#data{
+    background: #343434;
+    color: #fff;
+}
+ .grid{
+    box-sizing: border-box;
+    background: #fff;
+    
+}
+#data .grid .sam{
+    margin-left: 50px;
+    float: left;
+    width: 25%;
+    padding-left: 30px;
+    padding: 0 10px;
+    
+}
+#data .grid {
+    background-color: transparent;
+   
+}
+#data .sam h5{
+    text-align: center;
+    font-size: 24px;
+}
+#data .sam .con h5{
+ font-size: 25px;
+
+}
+.fot  {
+  background: #fff;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:whitesmoke;
+    color: white;
+    text-align: center;
+}
+footer{
+    background: blue;
+}
+.fot{
+    background: aqua;
+    color: black;
+}
+.fot small{
+
+    font-size: 26px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 50px  ;
+    color: darkgrey;
+}
+.fot .social{
+     float: right;
+     padding-right: 40px;
+      word-spacing: 2rem;
+}
+/* speakers html */
+#main{
+    background:lightsalmon;
+}
+/* end-speakers html */

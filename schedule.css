@@ -1,0 +1,135 @@
+ 
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+
+body{
+    background: #293f50;
+}
+#head{
+    margin: 0px;
+    padding: 0px;
+    background: #293f50;
+    height: 200px;
+}
+#head .main h5{
+    float: left;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size:35px;
+}
+#head .main span{
+    color: crimson;
+}
+#head .main h3 {
+    float:right ;
+    padding-top: 20px;
+    color:grey;
+    font-size: 20px;
+    padding-right: 190px;
+}
+.nav-bar ul{
+  float: right;
+  padding-top: 60px;
+  display: block;
+  list-style-type: none;
+}
+.nav-bar li{
+    display: inline;    
+    padding-top: 50px;
+    padding-left: 6px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-bar a{
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+}
+#he{
+    background: #cbe2c1;
+    height: 200px;
+}
+#he h2{
+    text-align: center ;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 3rem;
+    font-style:oblique;
+    font-weight: 400;
+    color: #2d3747;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#he p{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(70, 67, 67);
+}
+#main{
+    background: #ffffff ;
+    height: 900px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+table{
+    margin-bottom: 40px;
+
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table tr,th{
+    border: 2px solid #a9b2b9;
+}
+thead{
+    line-height: 44px;
+}
+thead th{
+    color: #648880;
+    font-size: 24px;
+}
+.t{
+    color: #a9b2b9;
+    width: 40% ;
+}
+tbody th{
+    color: #a9b2b9;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+tbody td{
+    padding-right: 20px;
+    color: #a9b2b9;
+}
+
+#fot small{
+ float: left;
+ padding-top: 20px;
+ padding-left: 40px;
+}
+#fot .mn{
+    float: right;
+
+}
+#fot .mn ul{
+    display: block;
+    list-style-type: none;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+#fot .mn li{
+    display: inline;
+   font-weight: 200;
+}
+#fot .mn a{
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+    padding-left: 8px;
+    font-weight: 200;
+}

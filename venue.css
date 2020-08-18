@@ -1,0 +1,163 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+
+body{
+    background: #293f50;
+}
+#head{
+    margin: 0px;
+    padding: 0px;
+    background: #293f50;
+    height: 200px;
+}
+#head .main h5{
+    float: left;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size:35px;
+}
+#head .main span{
+    color: crimson;
+}
+#head .main h3 {
+    float:right ;
+    padding-top: 20px;
+    color:grey;
+    font-size: 20px;
+    padding-right: 190px;
+}
+.nav-bar ul{
+  float: right;
+  padding-top: 60px;
+  display: block;
+  list-style-type: none;
+}
+.nav-bar li{
+    display: inline;    
+    padding-top: 50px;
+    padding-left: 6px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-bar a{
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+}
+#he{
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    height: 200px;
+}
+#he h2{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 30px;
+    font-size: 39px;
+    font-weight: 500;
+}
+#he p{
+    text-align: center;
+    color: #293f50;
+    font-size: 28px;
+    padding-top: 10px;
+
+}
+#main{
+    background: #ffffff;
+    padding-top: 0px;
+    height: 800px;
+}  
+.fi{
+    padding-top: 30px;
+    float: left;
+    padding-left: 20px;
+}
+.fi h3{
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    color: grey;
+
+}
+.fi p{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(145, 135, 135);
+}
+.fi a{
+    padding-left: 24px;
+    text-decoration: none;
+    color: rgb(145, 135, 135);
+}
+/* 
+iframe{
+    float: right;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+ */
+#main #si .ii{
+    float: right;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.si{
+    padding-top: 280px;
+    padding-left: 24px;
+}
+.si h3{
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    color: grey; 
+}
+.si p{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(145, 135, 135);
+}
+.si a{
+    padding-left: 24px;
+    text-decoration: none;
+    color: rgb(145, 135, 135);
+}
+#mi .if .gi{
+    float: right;
+    padding-right: 100px;
+    padding-top: 0px;
+}
+
+#fot small{
+ float: left;
+ padding-top: 20px;
+ padding-left: 40px;
+}
+#fot .mn{
+    float: right;
+
+}
+#fot .mn ul{
+    display: block;
+    list-style-type: none;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+#fot .mn li{
+    display: inline;
+   font-weight: 200;
+}
+#fot .mn a{
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+    padding-left: 8px;
+    font-weight: 200;
+}
